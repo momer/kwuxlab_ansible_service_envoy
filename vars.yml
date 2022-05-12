@@ -1,4 +1,13 @@
 ---
+
+#
+# Role-speciifc configuration
+#
+
+# Role:
+#   name: `robustq.envoyproxy`
+#   source: https://github.com/robustq/ansible-role-envoyproxy/tree/robustq
+
 # Our Envoy installation will listen on port 8001 for the admin panel
 envoy_admin_port: 8001
 
